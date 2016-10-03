@@ -1,6 +1,6 @@
 def compute_grade():
 	try:
-	    score = raw_input('What was the students score, between 0.0  - 1.1? ')
+	    score = raw_input("What was the student's score, between 0.0  - 1.1? ")
 	    s = float(score)
 	    if s >= 0.9 and s <= 1.1:
 		    grade = 'A'
